@@ -283,7 +283,18 @@ V gene segment identification afterwards.
 
 \**(N)2-4  – random nucleotides which introduced at 5’-ends of the final library for better diversity generation and cluster differentiation by Illumina sequencer. XXXXX – sample barcode (numbered as “i” in the primer name), generation of sample barcodes on both sides of the library minimizes cross-sample contamination. 
 
+####Troubleshooting
 
 
-
-
+| Problem | Possible reason | Possible solution |
+| ------- | --------------- | ----------------- |
+| gDNA contamination (when using phenol-chloroform extraction method) | Interphase pipetted up with aqueous phase | Do not draw off the entire aqueous phase after phase separation. Perform DNAse treatment. |
+| Low RNA yield | Final RNA pellet was incompletely  dissolved | Do not allow the RNA to dry completely after last washing, the pellet can lose solubility. |
+| RNA is degraded | Samples were stored too long before processing | Try to process sample immediately after collection |
+|  | Isolated RNA were stored at incorrect temperature | Store RNA samples at -20°C and in 75% ethanol |
+|  | RNAse contamination | Prepare new solutions of reagents and treat equipment with RNAse decontamination solution (e.g. RNAseZap, Ambion) |
+| Agarose gel electrophoresis reveals low concentration of the PCR product or no product | The RNA may contain impurities that inhibit cDNA synthesis | In some cases, ethanol precipitation of RNA can remove impurities. If this does not help, re-isolate the RNA |
+|  | PCR undercycling | Subject the samples to two or three additional PCR cycles (plus one extra final extension cycle) and recheck the products |
+|  | cDNA synthesis or PCR kit related problems | Use control high-quality RNA extracted from large amounts of T cells or white blood cells to verify kits performance |
+| Bands and background smear are very intense | PCR overcycling | Repeat the PCR amplification, using two or three fewer PCR cycles |
+| Background smear is intense or short length fragments are visible |  | Purify target library using AMPure XP beads or agarose gel purification |
