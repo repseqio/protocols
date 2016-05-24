@@ -7,14 +7,14 @@ separate clean work places. General recommendation to lower the risk of RNA degr
 out: (labcoats, gloves, tips with aerosol filters, certified RNAse/DNAse free reagents, performing of non-template control
 reaction).
 
-###Contets:
-1. Preparing starting material.
-2. Total RNA isolation. Timing ~1 hour.
-3. cDNA synthesis with template switch. Timing ~2 hours.
-4. First PCR amplification. Timing ~2 hours.
-5. 2nd PCR amplification. Timing ~2 hours.
-6. Illumina adapter ligation.
-7. Sequencing.
+###Contents:
+1. Preparing starting material. **Timing** ~1 h
+2. Total RNA isolation. **Timing** ~1 h
+3. cDNA synthesis with template switch. **Timing** ~2 h
+4. First PCR amplification. **Timing** ~2 h
+5. 2nd PCR amplification. **Timing** ~2 h
+6. Illumina adapter ligation. **Timing** ~2 h
+7. Sequencing. **Timing** variable
 8. Oligonucleotides table.
 
 
@@ -82,7 +82,7 @@ amounts, it is better to start cDNA synthesis immediately after RNA extraction.
 | SMARTScribe Reverse Transcriptase (10x, Clontech) | 1 | 10 U/µl |
 | rRNasin | 1 | 0,4 U/µl |
 | RNA | 1-2 | Up to 500 ng per reaction |
-| mQ | 0-1 | |
+| mQ | to 10  | |
 
 \* Final concentration refers to concentration in 10 μl following addition of mix.
 
@@ -266,15 +266,15 @@ V gene segment identification afterwards.
 
 | Primer | Application | Sequence |
 | ------ | ----------- | -------- |
-| 1st strand cDNA synthesis |
+| 1st strand cDNA synthesis |||
 | SmartNNNa | 5’ – template switch adapter* | AAGCAGUGGTAUCAACGCAGAGUNNNNUNNNNUNNNNUCTT(rG)4 |
 | ACR_st4 | Primer for cDNA synthesis, human TCR alpha chain mRNA, C-region | GTCTAGCACAGTTTTGTC |
 | BCR4short | Primer for cDNA synthesis, human TCR beta chain mRNA, C-region | GTATCTGGAGTCATTGA |
-| 1st PCR amplification |
+| 1st PCR amplification |||
 | M1ss | primer, anneals on the switch adapter | AAGCAGTGGTATCAACGCA |
 | ACR_st1 | Nested primer, TCR alpha cDNA, C-region | GTCACTGGATTTAGAGTC | 
 | BC2uniR | Nested primer, TCR beta cDNA, C-region | TGCTTCTGATGGCTCAAACAC |
-| 2nd PCR amplification** |
+| 2nd PCR amplification** |||
 | M1s_i | Slightly nested primer, anneals on the switch adapter | (N)2–4(XXXXX)CAGTGGTATCAACGCAGAG |
 | Hum acj i | Nested primer, TCR alpha cDNA, C-region | (N)2–4(XXXXX)GGGTCAGGGTTCTGGATAT |
 | Hum bcj i | Nested primer, TCR beta cDNA, C-region | (N)2–4(XXXXX)ACACSTTKTTCAGGTCCTC |
