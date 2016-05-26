@@ -12,7 +12,7 @@ Equipment
 * Vortex
 * QIAGEN MinElute Columns (Cat No. 28004 or 28006)
 * 1.5 mL tubes
-* Set of automatic pipettes ranging from 10 uL and 1 mL
+* Set of automatic pipettes ranging from 10 µL and 1 mL
 
 Reagents
 -------------------------------
@@ -25,17 +25,17 @@ Procedure
 *In case of cell sorting you could collect the cells into PBS mixed with AL buffer (1:1) and use it directly without any additional centrifugation steps.
 Make sure in advance that sorter jet is adjusted correctly for you won't be able to visually confirm cell presence due to their lysis.*
 
-1. Resuspend the cells in X uL 1x PBS.
-2. Add X uL AL buffer from the QIAGEN kit.
-3. Add X/10 uL protease or proteinase K solution. Resuspend the lyophilized enzyme as recommended by the manufacturer.
+1. Resuspend the cells in X µL 1x PBS.
+2. Add X µL AL buffer from the QIAGEN kit.
+3. Add X/10 µL protease or proteinase K solution. Resuspend the lyophilized enzyme as recommended by the manufacturer.
 4. Mix the obtained sample by vortexing or pipetting and briefly centifuge it.
 5. Incubate the sample at 56°C for 10 minutes.
-6. Add X uL ~96% ethanol and mix by vortexing. Briefly centrifuge the tube.
+6. Add X µL ~96% ethanol and mix by vortexing. Briefly centrifuge the tube.
 7. Apply the sample to the QIAGEN MinElute column.
 8. Centrifuge at 6000 x g (about 8000 rpm for a standart tabletop centrifuge) for 1 minute. Discard the flow-through.
-9. Add 500 uL AW1 buffer, centrifuge at 6000 x g for 1 minute. Discard the flow-through.
-10. Add 500 uL AW2 buffer, centrifuge at full speed (20 000 x g) for 1 minute. Discard the flow-through and centrifuge the empty column to eliminate residual ethanol.
-11. Place the column in a clean 1.5 mL tube. Add 10-15 uL EB or AE directly to the membrane.
+9. Add 500 µL AW1 buffer, centrifuge at 6000 x g for 1 minute. Discard the flow-through.
+10. Add 500 µL AW2 buffer, centrifuge at full speed (20 000 x g) for 1 minute. Discard the flow-through and centrifuge the empty column to eliminate residual ethanol.
+11. Place the column in a clean 1.5 mL tube. Add 10-15 µL EB or AE directly to the membrane.
 12. Incubate the closed column at 40°C for 2 minutes. Centifuge at full speed for 30 seconds.
 13. Apply the eluted sample back to the membrane and repeat the 12 step. This procedure will slightly increase yields.
 
