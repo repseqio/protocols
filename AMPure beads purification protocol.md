@@ -11,6 +11,22 @@
 * Elution buffer - EB (Qiagen).
 
 ##Workflow
+
+![AMPure workflow](https://github.com/repseqio/protocols/blob/master/img/AMPure%20XP.png "AMPure XP overview")
+
+**Figure 1.** Workflow for PCR Purification. Picture from [www.beckmancoulter.com](https://www.beckmancoulter.com/wsrportal/techdocs?docname=B37419AA).
+
+The workflow for the PCR purification process is as follows:
+
+1. Add 0.8 μl AMPure XP per 1.0 μl of sample.
+2. Bind DNA fragments to paramagnetic beads.
+3. Separation of beads + DNA fragments from contaminants.
+4. Wash beads + DNA fragments twice with 70% EtOH to remove contaminants.
+5. Elute purified DNA fragments from beads.
+6. Transfer to new plate.
+
+##Procedure
+
 1| Add 0.8 μl AMPure XP beads (Beckman Coulter) per 1.0 μl of sample. Mix well by pipetting. Incubate sample for 5 minutes at room temperature 
 for maximum recovery.
 
