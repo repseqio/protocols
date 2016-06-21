@@ -16,7 +16,7 @@
 
 ##Workflow
 
-![AMPure workflow](https://github.com/repseqio/protocols/blob/master/img/SepMate_overview.png "SepMate MNC extraction overview")
+![AMPure workflow](https://github.com/repseqio/protocols/blob/master/img/SepMate_overview_v2.png "SepMate MNC extraction overview")
 
 **Figure 1.** Workflow for MNCs extraction. Picture from www.stemcell.com.
 
