@@ -1,3 +1,5 @@
+#Extraction of mononuclear cells (MNCs) from periferal blood
+
 ##Equipment
 * SepMate™ tubes - 15 or 50 ml (Stemcell);
 * 15 or 50 ml tubes;
@@ -11,10 +13,24 @@
 * RosetteSep™ [B-](http://www.stemcell.com/en/Products/All-Products/RosetteSep-Human-B-Cell-Enrichment-Cocktail.aspx)
   or [T-](http://www.stemcell.com/en/Products/All-Products/RosetteSep-Human-T-Cell-Enrichment-Cocktail.aspx) 
   or [Total lymphocyte enrichment coctail](http://www.stemcell.com/en/Products/All-Products/RosetteSep-Human-Total-Lymphocyte-Enrichment-Cocktail.aspx) (Stemcell). Optional.
+
+##Workflow
+
+![AMPure workflow](https://github.com/repseqio/protocols/blob/master/img/SepMate_overview.png "SepMate MNC extraction overview")
+
+**Figure 1.** Workflow for MNCs extraction. Picture from www.stemcell.com.
+
+The workflow for the MNCs extraction process is as follows:
+
+1. Add density gradient medium.
+2. Add the diluted sample by pipetting it down the side of the tube.
+3. Centrifuge at 1200 g for 20 minutes at room temperature.
+4. Pour off the interphase, which contains the enriched mononuclear cells, into a new tube.
+5. Wash cells with Hanks medium.
   
 ##Procedure
-1| Add density gradient medium to the SepMate™ tube by carefully pipetting it through the central hole of the SepMate™
-insert. Refer to Table 1 for required volumes. The top of the density gradient medium will be above the insert.
+1| Add ficoll to the SepMate™ tube by carefully pipetting it through the central hole of the SepMate™
+insert. Refer to Table 1 for required volumes. The top of the ficoll will be above the insert.
 
 **Table 1.** Density gradient volumes.
 
@@ -46,9 +62,9 @@ the density medium.
 
 6| Aspirate the top layer (diluted plasma).
 
-7| Pour off the interphase, which contains the enriched lymphocytes, into a new tube. 
+7| Pour off the interphase, which contains the enriched mononuclear cells, into a new tube. 
 
-**NOTE:** Some red blood cells (RBCs) may be present on the surface of the SepMate™ insert after centrifugation. This will
+**NOTE:** Some red blood cells may be present on the surface of the SepMate™ insert after centrifugation. This will
 not affect performance. 
 
 8| Wash enriched lymphocytes with 50 ml Hanks medium.
@@ -57,7 +73,7 @@ not affect performance.
 
 9| Optional step. Repeat step 8.
 
-10| Transfer cells to 1-2 ml PBS + 0.5% BSA.
+10| Transfer MNCs to 1-2 ml PBS + 0.5% BSA.
 
 **NOTE:** Washing with 5 ml PBS + 0.5% BSA, centrifuging at 400 g for 8 minutes at room temperature, with the brake on, 
 is recommended.
