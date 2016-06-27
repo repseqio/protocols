@@ -77,7 +77,7 @@ amounts, it is better to start cDNA synthesis immediately after RNA extraction.
 | First Strand Buffer (5x, Clontech) | 2 | 1x |
 | DTT (20 mM) | 1 | 2 mM |
 |dNTP solution (10 mM each) | 1 | 1 mM each |
-| cDNA synthesis primer or primer mix (10 μM each)** | 1 | 1 μM for each primer |
+| cDNA synthesis primer mix**: ACR_st4 (10 μM), BCR4short (10 μM) | 1 | 1 μM for each primer |
 | 5’-template switch adapter (10 μM) | 1 | 1 μM |
 | SMARTScribe Reverse Transcriptase (10x, Clontech) | 1 | 10 U/µl |
 | rRNasin | 1 | 0,4 U/µl |
@@ -86,7 +86,7 @@ amounts, it is better to start cDNA synthesis immediately after RNA extraction.
 
 \* Final concentration refers to concentration in 10 μl following addition of mix.
 
-\** see **Table 1** for primer mixes. 
+\** see [**Table 1**](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#table-1-oligonucleotides) for primer mixes. 
 
 **CRITICAL STEP:** Preferably, use most or all RNA extracted from sample of interest. At a later stage (step 9), 
 a portion of obtained cDNA may be used in order to achieve desirable over-sequencing per cDNA molecule.
