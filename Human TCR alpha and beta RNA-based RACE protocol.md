@@ -8,18 +8,19 @@ out: (labcoats, gloves, tips with aerosol filters, certified RNAse/DNAse free re
 reaction).
 
 ###Contents:
-1. Preparing starting material. **Timing** ~1 h
-2. Total RNA isolation. **Timing** ~1 h
-3. cDNA synthesis with template switch. **Timing** ~2 h
-4. First PCR amplification. **Timing** ~2 h
-5. 2nd PCR amplification. **Timing** ~2 h
-6. Illumina adapter ligation. **Timing** ~2 h
-7. Sequencing. **Timing** variable
-8. Oligonucleotides table.
+1. [Preparing starting material – cells.](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#preparing-starting-material--cells-timing-2-4-hours) **Timing** ~2.5 h
+2. [Total RNA isolation.](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#preparing-starting-material--total-rna-timing-1-hour) **Timing** ~1 h
+3. [cDNA synthesis with template switch.](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#cdna-synthesis-with-template-switch-timing-2-hours) **Timing** ~2 h
+4. [First PCR amplification.](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#first-pcr-amplification-timing-2-hours) **Timing** ~2 h
+5. [Second PCR amplification.](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#second-pcr-amplification-timing-1-hours) **Timing** ~1 h
+6. [Anticipated result.](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#anticipated-result) 
+7. [Illumina adapter ligation.](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#illumina-adapter-ligation) **Timing** ~2 h
+8. [Sequencing.](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#sequencing) **Timing** variable
+9. [Oligonucleotides table.](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#table-1-oligonucleotides)
 
 
-####Preparing starting material – cells. Timing ~2-4 hours.
-1| Perform isolation of mononuclear cells from whole blood using Ficoll Paque density gradient centrifugation or 
+####Preparing starting material – cells. Timing ~2.5 hours.
+1| Perform isolation of mononuclear cells from whole blood using [Ficoll Paque density gradient centrifugation](https://github.com/repseqio/protocols/blob/master/MNCs%20extraction%20using%20SepMate%E2%84%A2%20(Stemcell)%20tubes.md#extraction-of-mononuclear-cells-mncs-from-periferal-blood) or 
 lymphocyte extraction from tissue specimen.
 
 2| Purify T cells subset of interest using magnetic separation or fluorescence-activated cell sorting.
@@ -35,14 +36,12 @@ in the collection tube and the mRNA is protected from degradation.
 samples, culture thawed cells overnight in RPMI-1640 supplemented with 10% human serum.
 
 
-####Preparing starting material – total RNA. Timing ~1 hour.
-3| Use column-based RNA isolation method, for example, RNeasy Micro kit (QIAGEN). Alternatively, use any commercially 
-available reagents for RNA extraction based on acid guanidinium thiocyanate-phenol-chloroform method. It may be, 
-for example, Trizol (Invitrogen) or QIAzol (QIAGEN), or other analogous products. Follow the protocols as described 
+####Total RNA isolation. Timing ~1 hour.
+3| Use column-based RNA isolation method, for example, [RNeasy Micro kit (QIAGEN)](https://www.qiagen.com/ru/shop/sample-technologies/rna/rna-preparation/rneasy-micro-kit#orderinginformation). Alternatively, use any commercially available reagents for RNA extraction based on acid guanidinium thiocyanate-phenol-chloroform method. It may be, for example, Trizol (Invitrogen) or QIAzol (QIAGEN), or other analogous products. Follow the protocols as described 
 by the manufacturer. Depending on the quantity of starting material use the following options:
 
 3A| For large numbers of cells, when using phenol-chloroform based RNA extraction method, use correct amount of lysis
-reagent. For example, use 1 mL of Trizol per up to 10^7 cells. When using column-based RNA extraction method,
+reagent. For example, use 1 ml of Trizol per up to 10^7 cells. When using column-based RNA extraction method,
 DNAse treatment is strongly recommended for large numbers of cells.
 
 **CRITICAL STEP:** Improper ratio Trizol reagent: sample may lead to insufficient cell lysis and affect the RNA yield. 
@@ -50,13 +49,10 @@ Use only fresh solutions of 70% ethanol and 80% ethanol for RNA extraction.
 
 **CRITICAL STEP:** Large amounts of gDNA significantly affect cDNA synthesis. 
 
-3B| For small number of cells (below 100 000 live cells), begin isolation of total RNA immediately following cell
-acquisition in order to minimize loss of live cells and mRNA. When using Trizol reagent, add co-precipitant as a carrier
-to the aqueous phase. Co-precipitant allows easy identification of the colored pellet and doesn’t inhibit subsequent
-first-strand cDNA synthesis and PCR. Alternatively, use RNeasy Micro kit (QIAGEN) for counts below 100 000 cells.
+3B| For small number of cells (below 100 000 live cells), use RNeasy Micro kit.
 Verified minimal number of cells for the protocol is *500 T cells sorted directly in RLT buffer of RNeasy Micro kit*.
 
-**PAUSE POINT:** Cellular lysate in RLT buffer (QIAGEN) or Trizol can be stored at -70ºC for at least a month. Works 
+**PAUSE POINT:** Cellular lysate in RLT buffer or Trizol can be stored at -70ºC for at least a month. Works 
 even for low cell counts.
 
 4| Optionally: verify RNA quantity and quality, e.g. using Agilent Bioanalyzer or gel electrophoresis. RNA Integrity 
@@ -152,7 +148,7 @@ purification Kit. During purification, wash twice. Elute purified PCR product in
 **PAUSE POINT:** At this time, purified product of the 1st PCR can be stored at 4°C overnight. For extended storage 
 (1-2 months), it is recommended that the PCR product be stored at −20°C freezer.
  
-####Second PCR amplification. Timing ~2 hours.
+####Second PCR amplification. Timing ~1 hours.
 This part of the protocol uses slightly nested reverse constant region primers coupled with added sample barcodes.
 The numbers of barcoded sample primers used will need to be adjusted according to the number of samples and each barcode
 must be assigned to only one sample amplification. See the end of the protocol for a complete list of synthesized barcoded 
@@ -191,7 +187,7 @@ critical for clusters differentiation by Illumina sequencer.
 14| Verify quality and concentration of obtained PCR product by analyzing aliquot of the sample alongside DNA ladder
 on agarose gel or Agilent Bioanalyzer.
 
-**CRITICAL STEP:** Visible band (~2 ng/ul) should be normally obtained within 10-16 cycles of 2nd PCR. Absence of visible
+**CRITICAL STEP:** Visible band (~2 ng/ul) should be normally obtained within 9-15 cycles of second PCR. Absence of visible
 band by 18 cycle of 2nd PCR may indicate that less than 1,000 cDNA molecules have entered 1st PCR.
 
 15| Purify PCR product using QIAquick PCR purification Kit (or other column based purification system). During 
