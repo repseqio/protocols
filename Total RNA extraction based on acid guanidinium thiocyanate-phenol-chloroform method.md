@@ -1,9 +1,9 @@
 #Total RNA extraction from mononuclear cells based on acid guanidinium thiocyanate-phenol-chloroform method
 
 ##Table of contents
- * Equipment
- * Reagents
- * Procedure
+ * [Equipment](https://github.com/repseqio/protocols/blob/master/Total%20RNA%20extraction%20based%20on%20acid%20guanidinium%20thiocyanate-phenol-chloroform%20method.md#equipment)
+ * [Reagents](https://github.com/repseqio/protocols/blob/master/Total%20RNA%20extraction%20based%20on%20acid%20guanidinium%20thiocyanate-phenol-chloroform%20method.md#reagents)
+ * [Procedure](https://github.com/repseqio/protocols/blob/master/Total%20RNA%20extraction%20based%20on%20acid%20guanidinium%20thiocyanate-phenol-chloroform%20method.md#procedure)
  
 ##Equipment
  * 1.5 ml tubes;
