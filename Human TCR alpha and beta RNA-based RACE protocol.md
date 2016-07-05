@@ -8,15 +8,15 @@ out: (labcoats, gloves, tips with aerosol filters, certified RNAse/DNAse free re
 reaction).
 
 ###Contents:
-1. [Preparing starting material – cells.](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#preparing-starting-material--cells-timing-2-4-hours) **Timing** ~2.5 h
-2. [Total RNA isolation.](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#preparing-starting-material--total-rna-timing-1-hour) **Timing** ~1 h
-3. [cDNA synthesis with template switch.](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#cdna-synthesis-with-template-switch-timing-2-hours) **Timing** ~2 h
-4. [First PCR amplification.](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#first-pcr-amplification-timing-2-hours) **Timing** ~2 h
-5. [Second PCR amplification.](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#second-pcr-amplification-timing-1-hours) **Timing** ~1 h
-6. [Anticipated result.](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#anticipated-result) 
-7. [Illumina adapter ligation.](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#illumina-adapter-ligation) **Timing** ~2 h
-8. [Sequencing.](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#sequencing) **Timing** variable
-9. [Oligonucleotides table.](https://github.com/repseqio/protocols/blob/master/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#table-1-oligonucleotides)
+1. [Preparing starting material – cell purification.](https://github.com/repseqio/protocols/blob/4b3762321e00bc18e8479719c6b98f87f38a145f/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#preparing-starting-material--cell-purification-timing-25-hours) **Timing** ~2.5 h
+2. [Preparing starting material – total RNA. ](https://github.com/repseqio/protocols/blob/4b3762321e00bc18e8479719c6b98f87f38a145f/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#preparing-starting-material--total-rna-timing-05-hour) **Timing** ~0.5 h
+3. [cDNA synthesis with template switch.](https://github.com/repseqio/protocols/blob/4b3762321e00bc18e8479719c6b98f87f38a145f/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#cdna-synthesis-with-template-switch-timing-2-hours) **Timing** ~2 h
+4. [First PCR amplification.](https://github.com/repseqio/protocols/blob/4b3762321e00bc18e8479719c6b98f87f38a145f/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#first-pcr-amplification-timing-2-hours) **Timing** ~2 h
+5. [Second PCR amplification.](https://github.com/repseqio/protocols/blob/4b3762321e00bc18e8479719c6b98f87f38a145f/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#second-pcr-amplification-timing-2-hours) **Timing** ~1 h
+6. [Anticipated result.](https://github.com/repseqio/protocols/blob/4b3762321e00bc18e8479719c6b98f87f38a145f/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#anticipated-result) 
+7. [Sequencing library preparation.](https://github.com/repseqio/protocols/blob/4b3762321e00bc18e8479719c6b98f87f38a145f/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#sequencing-library-preparation) **Timing** ~2 h
+8. [Sequencing.](https://github.com/repseqio/protocols/blob/4b3762321e00bc18e8479719c6b98f87f38a145f/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#sequencing) **Timing** variable
+9. [Oligonucleotides table.](https://github.com/repseqio/protocols/blob/4b3762321e00bc18e8479719c6b98f87f38a145f/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#table-1-oligonucleotides)
 
 
 ####Preparing starting material – cell purification. Timing ~2.5 hours.
