@@ -204,7 +204,7 @@ of starting mRNA.
 
 **17|** Process libraries for sequencing by pooling before adapter ligation (option A) or after ligation of adapters (option B):
 
-######A. Pooled adapter ligation
+#####A. Pooled adapter ligation
 **I.** For a MiSeq run or HiSeq lane, prepare pool of your libraries by combining equal molar or equal volume portion of each individual sample. The resulting amount of pooled PCR products should be at least 300 ng.
 
 **CRITICAL STEP:** We recommend to generate parallel libraries of similar content (e.g., ten samples of 100,000 T cells each) using the same protocol and number of PCR cycles, and further mix the obtained libraries in equal volume proportions. This allows to obtain homogeneous over-sequencing (reads per UMI), which is optimal for further comparative bioinformatic analysis. For example, the library which started from 30,000 T cells may produce more PCR product than one which started from 10,000 T cells after the same number of PCR cycles. However, the former library would also carry proportionally more TCR cDNA molecules, and thus requires more sequencing reads to achieve the comparable UMI coverage.
