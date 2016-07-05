@@ -226,10 +226,6 @@ Illumina adapters separately to each library is recommended.
 Run the agarose gel electrophoresis at 120V for ~60 minutes. Then excise the gel with amplified libraries in the range
 of ~600-750nt (size of amplicons with Illumina adapters is sample dependent).
 
-22| Library amplification PCR after adapters ligation.  
-
-23| Cut from gel again.
-
 **CRITICAL STEP:** Even minor amounts of short non-specific products may essentially reduce counts of target sequencing 
 reads, since short fragments are much more efficient in solid-phase bridge amplification.
 
@@ -240,9 +236,9 @@ fragments lengths may be significant.
 to damage the library.
 
 ####Sequencing
-19|  Spike the library with 20% of PhiX library.
+**19|**  Spike the library with 20% of PhiX library.
 
-20| Analyze the resulting library using paired end Illumina MiSeq or HiSeq2500 sequencing, standard Illumina sequencing 
+**20|** Analyze the resulting library using paired end Illumina MiSeq or HiSeq2500 sequencing, standard Illumina sequencing 
 primers, 150+150 or 200+200 paired end sequencing. 
 
 **CRITICAL STEP:** 150+150 length is sufficient to cover CDR3. However, the longer are the reads, the more accurate is
