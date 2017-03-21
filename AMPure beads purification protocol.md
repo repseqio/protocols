@@ -1,4 +1,4 @@
-#AMPure XP beads DNA purification
+# AMPure XP beads DNA purification
 
 The Agencourt AMPure XP PCR purification system utilizes Beckman Coulter’s solid-phase reversible immobilization (SPRI) paramagnetic bead technology for high-throughput purification of PCR amplicons. Agencourt AMPure XP utilizes an optimized buffer to selectively bind DNA fragments 200 bp and larger to paramagnetic beads. Excess primers, nucleotides, salts, and enzymes can be removed using a simple washing procedure. The result is a more purified PCR product. 
 
@@ -10,24 +10,24 @@ Agencourt AMPure XP purified products can be used in the following applications:
  * Primer Walking
  * Cloning
 
-##Table of contents
+## Table of contents
 * [Equipment](https://github.com/repseqio/protocols/blob/master/AMPure%20beads%20purification%20protocol.md#equipment)
 * [Reagents](https://github.com/repseqio/protocols/blob/master/AMPure%20beads%20purification%20protocol.md#reagents)
 * [Workflow](https://github.com/repseqio/protocols/blob/master/AMPure%20beads%20purification%20protocol.md#workflow)
 * [Procedure](https://github.com/repseqio/protocols/blob/master/AMPure%20beads%20purification%20protocol.md#procedure)
 * [Troubleshooting](https://github.com/repseqio/protocols/blob/master/AMPure%20beads%20purification%20protocol.md#troubleshooting)
 
-##Equipment
+## Equipment
 * 1.5 ml tubes;
 * magnet plate for 1.5 ml tubes;
 * set of automatic pipettes ranging from 10 µl and 1 ml.
 
-##Reagents
+## Reagents
 * AMPure XP beads (Beckman Coulter);
 * 70% EtOH;
 * Elution buffer - EB (Qiagen).
 
-##Workflow
+## Workflow
 
 ![AMPure workflow](https://github.com/repseqio/protocols/blob/master/img/AMPure%20XP.png "AMPure XP overview")
 
@@ -42,7 +42,7 @@ The workflow for the PCR purification process is as follows:
 5. Elute purified DNA fragments from beads.
 6. Transfer to new plate.
 
-##Procedure
+## Procedure
 
 1| Add 0.8 μl AMPure XP beads (Beckman Coulter) per 1.0 μl of sample. Mix well by pipetting. Incubate sample for 5 minutes at room temperature 
 for maximum recovery.
@@ -73,7 +73,7 @@ decrease elution efficiency.
 
 9| Transfer the eluate witn DNA to a new tube.
 
-##Troubleshooting
+## Troubleshooting
 
 Troubleshooting  was taken from [www.beckmancoulter.com](https://www.beckmancoulter.com/wsrportal/techdocs?docname=B37419AA).
 
