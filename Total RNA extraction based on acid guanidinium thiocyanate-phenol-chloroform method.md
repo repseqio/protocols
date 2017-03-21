@@ -1,16 +1,16 @@
-#Total RNA extraction from mononuclear cells based on acid guanidinium thiocyanate-phenol-chloroform method
+# Total RNA extraction from mononuclear cells based on acid guanidinium thiocyanate-phenol-chloroform method
 
-##Table of contents
+## Table of contents
  * [Equipment](https://github.com/repseqio/protocols/blob/master/Total%20RNA%20extraction%20based%20on%20acid%20guanidinium%20thiocyanate-phenol-chloroform%20method.md#equipment)
  * [Reagents](https://github.com/repseqio/protocols/blob/master/Total%20RNA%20extraction%20based%20on%20acid%20guanidinium%20thiocyanate-phenol-chloroform%20method.md#reagents)
  * [Procedure](https://github.com/repseqio/protocols/blob/master/Total%20RNA%20extraction%20based%20on%20acid%20guanidinium%20thiocyanate-phenol-chloroform%20method.md#procedure)
  
-##Equipment
+## Equipment
  * 1.5 ml tubes;
  * set of automatic pipettes ranging from 1 µl and 1 ml;
  * centrifuge.
  
-##Reagents
+## Reagents
  * 80% EtOH;
  * Trizol (Invitrogen) or QIAzol (QIAGEN), or other analogous products;
  * steril RNAse free water;
@@ -18,7 +18,7 @@
  * isopropanol;
  * Pellet Paint® co-precipitant (optional).
  
-##Procedure
+## Procedure
 1| Add 1 ml of Trizol to your suspension of mononuclear cells and pipette extensively for the liquid to become transparent.
 
 **CRITICAL STEP:** Improper ratio Trizol reagent: sample may lead to insufficient cell lysis and affect the RNA yield. Use correct amount of lysis reagent. For example, use 1 ml of Trizol per up to 10^7 cells.
