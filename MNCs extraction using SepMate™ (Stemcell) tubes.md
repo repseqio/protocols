@@ -1,12 +1,12 @@
-#Extraction of mononuclear cells (MNCs) from periferal blood
+# Extraction of mononuclear cells (MNCs) from periferal blood
 
-##Equipment
+## Equipment
 * SepMate™ tubes - 15 or 50 ml (Stemcell);
 * 15 or 50 ml tubes;
 * set of automatic pipettes ranging from 1 ml and 50 ml;
 * centrifuge.
 
-##Reagents
+## Reagents
 * Ficoll density gradient medium;
 * Hanks medium;
 * PBS + 0.5% BSA;
@@ -14,7 +14,7 @@
   or [T-](http://www.stemcell.com/en/Products/All-Products/RosetteSep-Human-T-Cell-Enrichment-Cocktail.aspx) 
   or [Total lymphocyte enrichment coctail](http://www.stemcell.com/en/Products/All-Products/RosetteSep-Human-Total-Lymphocyte-Enrichment-Cocktail.aspx) (Stemcell). Optional.
 
-##Workflow
+## Workflow
 
 ![AMPure workflow](https://github.com/repseqio/protocols/blob/master/img/SepMate_overview_v2.png "SepMate MNC extraction overview")
 
@@ -28,7 +28,7 @@ The workflow for the MNCs extraction process is as follows:
 4. Pour off the interphase, which contains the enriched mononuclear cells, into a new tube.
 5. Wash cells with Hanks medium.
   
-##Procedure
+## Procedure
 1| Add ficoll to the SepMate™ tube by carefully pipetting it through the central hole of the SepMate™
 insert. Refer to Table 1 for required volumes. The top of the ficoll will be above the insert.
 
