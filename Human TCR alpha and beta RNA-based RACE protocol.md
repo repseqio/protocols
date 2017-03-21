@@ -1,13 +1,13 @@
 Human TCR alpha and beta RNA-based 5’-RACE protocol with unique molecular identifiers (UMI)
 ==========================================================================================
 
-##PROCEDURE
+## PROCEDURE
 **CRITICAL STEP:** Perform cell isolation, RNA purification, cDNA synthesis and 1st PCR preparation steps in the 
 separate clean work places. General recommendation to lower the risk of RNA degradation and contamination should be carried
 out: (labcoats, gloves, tips with aerosol filters, certified RNAse/DNAse free reagents, performing of non-template control
 reaction).
 
-###Contents:
+### Contents:
 1. [Preparing starting material – cell purification.](https://github.com/repseqio/protocols/blob/4b3762321e00bc18e8479719c6b98f87f38a145f/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#preparing-starting-material--cell-purification-timing-25-hours) **Timing** ~2.5 h
 2. [Preparing starting material – total RNA. ](https://github.com/repseqio/protocols/blob/4b3762321e00bc18e8479719c6b98f87f38a145f/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#preparing-starting-material--total-rna-timing-05-hour) **Timing** ~0.5 h
 3. [cDNA synthesis with template switch.](https://github.com/repseqio/protocols/blob/4b3762321e00bc18e8479719c6b98f87f38a145f/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#cdna-synthesis-with-template-switch-timing-2-hours) **Timing** ~2 h
@@ -19,7 +19,7 @@ reaction).
 9. [Oligonucleotides table.](https://github.com/repseqio/protocols/blob/4b3762321e00bc18e8479719c6b98f87f38a145f/Human%20TCR%20alpha%20and%20beta%20RNA-based%20RACE%20protocol.md#table-1-oligonucleotides)
 
 
-####Preparing starting material – cell purification. Timing ~2.5 hours.
+#### Preparing starting material – cell purification. Timing ~2.5 hours.
 **1|** Perform isolation of mononuclear cells from whole blood using [Ficoll Paque density gradient centrifugation](https://github.com/repseqio/protocols/blob/master/MNCs%20extraction%20using%20SepMate%E2%84%A2%20(Stemcell)%20tubes.md#extraction-of-mononuclear-cells-mncs-from-periferal-blood) or 
 lymphocyte extraction from tissue specimen.
 
@@ -38,7 +38,7 @@ in the collection tube and the mRNA is protected from degradation.
 samples, culture thawed cells overnight in RPMI-1640 supplemented with 10% human serum.
 
 
-####Preparing starting material – total RNA. Timing ~0.5 hour.
+#### Preparing starting material – total RNA. Timing ~0.5 hour.
 **3|** Use column-based RNA isolation method, for example, [RNeasy Micro kit (QIAGEN)](https://www.qiagen.com/ru/shop/sample-technologies/rna/rna-preparation/rneasy-micro-kit#orderinginformation).
 Verified minimal number of cells for the protocol is *500 T cells sorted directly in RLT buffer of RNeasy Micro kit*.
 
@@ -55,7 +55,7 @@ band are indicative of high quality RNA.
 **PAUSE POINT:** RNA can be stored in 75% ethanol at least 1 year at -20°C, or at least 1 week at 4°C. For small RNA
 amounts, it is better to start cDNA synthesis immediately after RNA extraction.
 
-####cDNA synthesis with template switch. Timing ~2 hours.
+#### cDNA synthesis with template switch. Timing ~2 hours.
 
 In case of QIAGEN column RNAeasy MinElute isolation - recommended for less than 100 000 cells - which is a more common case, the minimal final RNA volume is ~10 µl (using 12 μl elution buffer). Hence, two cDNA synthesis can be used to proceed the whole sample (5 µl of RNA in one reaction). 
 
@@ -98,7 +98,7 @@ in a smaller reaction volume.
 recommended that the cDNA product be stored at −20°C in the freezer. However, it is safer to proceed with the 1st PCR 
 the same or next day without freezing, not to lose the material. With minimal cell counts, safer to proceed the same day.
 
-####First PCR amplification. Timing ~2 hours.
+#### First PCR amplification. Timing ~2 hours.
 During optimization of PCR amplification step we have tested several polymerases from different suppliers. The best
 result was obtained with Q5 polymerase (NEB, M0491L, 500 units). Alternatively, other polymerase with high fidelity 
 and processivity may be used.
@@ -141,7 +141,7 @@ purification Kit. During purification, wash twice. Elute purified PCR product in
 **PAUSE POINT:** At this time, purified product of the 1st PCR can be stored at 4°C overnight. For extended storage 
 (1-2 months), it is recommended that the PCR product be stored at −20°C freezer.
  
-####Second PCR amplification. Timing ~2 hours.
+#### Second PCR amplification. Timing ~2 hours.
 This part of the protocol uses slightly nested reverse constant region primers coupled with added sample barcodes.
 The numbers of barcoded sample primers used will need to be adjusted according to the number of samples and each barcode
 must be assigned to only one sample amplification. See the end of the protocol for a complete list of synthesized barcoded 
@@ -193,25 +193,25 @@ demultiplexing in further software analysis. Preferably store at +4ºC in the me
 **PAUSE POINT:** At this time, purified libraries can be stored at 4°C overnight. For extended storage (up to 1 month),
 it is recommended that the PCR product be stored at −20°C freezer before adapter ligation.
 
-####Anticipated result
+#### Anticipated result
 Using the protocol provided will typically produce pure PCR band after 21 cycles of first PCR and 10-16 cycles of
 second PCR amplification, depending on the cell count, cell integrity, RNA quality, mRNA content in cells, and amounts 
 of starting mRNA.
 
-####Sequencing library preparation 
+#### Sequencing library preparation 
 
 **16|** For each of the obtained libraries, determine concentration using the QuBit Fluorometer.
 
 **17|** Process libraries for sequencing by pooling before adapter ligation (option A) or after ligation of adapters (option B):
 
-#####A. Pooled adapter ligation
+##### A. Pooled adapter ligation
 **I.** For a MiSeq run or HiSeq lane, prepare pool of your libraries by combining equal molar or equal volume portion of each individual sample. The resulting amount of pooled PCR products should be at least 300 ng.
 
 **CRITICAL STEP:** We recommend to generate parallel libraries of similar content (e.g., ten samples of 100,000 T cells each) using the same protocol and number of PCR cycles, and further mix the obtained libraries in equal volume proportions. This allows to obtain homogeneous over-sequencing (reads per UMI), which is optimal for further comparative bioinformatic analysis. For example, the library which started from 30,000 T cells may produce more PCR product than one which started from 10,000 T cells after the same number of PCR cycles. However, the former library would also carry proportionally more TCR cDNA molecules, and thus requires more sequencing reads to achieve the comparable UMI coverage.
 
 **II.** Use pooled PCR products from previous step to prepare a sequencing library. Use the NEBNext Ultra DNA library prep kit for Illumina and apply a standard protocol according to the [manufacturer recommendations.](https://www.neb.com/protocols/2014/05/22/protocol-for-use-with-nebnext-ultra-dna-library-prep-kit-for-illumina-e7370)
 
-#####B. Separate adapter ligation 
+##### B. Separate adapter ligation 
 
 **I.** Alternatively, prepare separate libraries for each sample. Use the NEBNext Ultra DNA library prep kit for Illumina and apply a standard protocol according to the [manufacturer recommendations.](https://www.neb.com/protocols/2014/05/22/protocol-for-use-with-nebnext-ultra-dna-library-prep-kit-for-illumina-e7370) Use at least 300 ng of each PCR product.
 
@@ -235,7 +235,7 @@ fragments lengths may be significant.
 **CRITICAL STEP:** Cut from gel fast, and use soft UV light, or preferably use Safe Imager and Sybr Green staining, not
 to damage the library.
 
-####Sequencing
+#### Sequencing
 **19|**  Spike the library with 20% of PhiX library.
 
 **20|** Analyze the resulting library using paired end Illumina MiSeq or HiSeq2500 sequencing, standard Illumina sequencing 
@@ -244,7 +244,7 @@ primers, 150+150 or 200+200 paired end sequencing.
 **CRITICAL STEP:** 150+150 length is sufficient to cover CDR3. However, the longer are the reads, the more accurate is
 V gene segment identification afterwards.  
 
-####Table 1. Oligonucleotides
+#### Table 1. Oligonucleotides
 
 | Primer | Application | Sequence |
 | ------ | ----------- | -------- |
@@ -265,7 +265,7 @@ V gene segment identification afterwards.
 
 \**(N)2-4  – random nucleotides which introduced at 5’-ends of the final library for better diversity generation and cluster differentiation by Illumina sequencer. XXXXX – sample barcode (numbered as “i” in the primer name), generation of sample barcodes on both sides of the library minimizes cross-sample contamination. 
 
-####Troubleshooting
+#### Troubleshooting
 
 
 | Problem | Possible reason | Possible solution |
